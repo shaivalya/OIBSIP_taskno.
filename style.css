@@ -1,154 +1,51 @@
-
-  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
-
-*{
-    margin:0;
-    padding :0;
-    box-sizing:border-box;
-}
-html, body{
-    line-height:1.4;
-    font-weight:300;
-    font-family: 'Roboto', sans-serif;
-}
-.brave_section{
-    background-image: url(images/please.jpg);
-    min-height:100vh;
-    background-position:center;
-    background-size:cover;
-    background-repeat:no-repeat ;
-}
-.text_container{
-    color:white;
-    max-width:900px;
-    margin:0 auto;
-padding-top:60px;
-padding-left:16px;
-}
-.lg_text{
-    font-size:72px;
-    font-weight:400;
-}
-.black_box{
-    background-color: black;
-    padding :20px;
-
-}
-.black_box h2{
-   
-    font-size:72px;
-    color: white;
-    text-align:center;
-    font-weight:300;
-}
-.black_box h2 span{
-   font-weight:400;
-   font-size:96px;
-
-}
-.work{
-    display:grid;
-    gap:20px;
-    grid-template-columns: repeat(auto-fit,minmax(320px,1fr));
-    margin: 20px 0 ;
-    max-width:1100px;
-    margin:50px auto;
-}
-.work_wrapper {
-    background-color: black;
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
     padding: 20px;
+    background-color: white;
 }
 
-
-.grid_item{
-    display:flex;
-    justify-content:center;
-    align-items: center;
-
+header {
+    background-color: white;
+    text-align: center;
+    padding: 80px 0;
 }
-.card{
-    max-width:320px;
-    height:400px;
+
+.header-content {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: white;
+}
+
+.tagline {
+    font-style: italic;
+    color: white; 
+}
+
+section {
+    padding: 40px;
+    background-color: #2c3e50;
+    margin: 20px auto;
+    max-width: 800px;
+    text-align: center;
     border-radius: 10px;
-    box-shadow:3px 5px black(1,1,1,0.3);
-    transition:0.2s ease-in-out;
+    color: white;
+}
 
+h2 {
+    color: #3498db;
 }
-.card:hover{
-    transform:scale(1.04);
-    box-shadow:3px 5px black(1,1,1,0.3);
-    transition:0.2s ease-in-out;
-}
-.card_content{
-    padding:20px;
-}
-.card_content{
 
-padding:10px;
+.project {
+    margin-bottom: 20px;
+    
 }
-.bottom_section{
-    display:flex;
-}
-.contact{
-    background-color: black ;
-   
 
-}
-.about{
-    background-color:black;
-}
-.contact,.about{
-    min-height: 300px;
-    padding: 32px;
-    color:white;
-
-}
-.about h2,.contact h2{
-   font-weight:300;
-   font-size:300;
+.contact-content {
+    text-align: center;
+    color: white; 
 }
 
 
-.about p,.contact p{
-    margin-bottom:20px;
-}
-footer{
-    text-align:center;
-    text-transform: uppercase;
-    background-color:white;
-    padding: 20px;
-}
-@media(max-width:786px){
-    .brave_section{
-        min-height:50vh;
-    }
-    .text_container{
-        padding: 10px 0;
-        text-align:center;
-
-    }
-    .lg_text{
-        font-size:32px;
-    }
-    .black_box h2{
-        font-size:24px;
-    }
-    .black_box h2 span{
-        font-weight:400;
-        font-size:32px;
 
 
-    }
-    .bottom_section{
-        display:flex;
-        flex-direction: column;
-    }
-    h1{
-        font-size:32;
-
-    }
-    .contact h2{
-        font-size: 432px;
-
-    }
-}
